@@ -1,4 +1,4 @@
-name: Optional failing check
+name: failing check
 
 on:
   pull_request:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   always-fail:
-    name: Optional failing check
+    name: failing check
     runs-on: ubuntu-latest
 
     steps:
